@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.cdnfonts.com/css/miama" rel="stylesheet">
     <title>Gym Bro's</title>
 </head>
 
 <body class="inter-fonts">
     <header class="fitness-header">
+        <!--navbar section-->
         <nav class="fitness-navbar display-flex">
             <h2 class="fitness-nav-title">Fitness</h2>
+            <img src="images/navbar.svg" alt="" class="fitness-icon">
             <ul class="fitness-nav-list display-flex fitness-color-one">
                 <li><a class="btn" href="">Home</a></li>
                 <li><a href="">Service</a></li>
@@ -21,30 +24,203 @@
         </nav>
     </header>
     <main>
-        <section class="fitness-banner-head">
-            <div class="display-flex">
+        <section class="fitness-banner-header">
+            <div class="fitness-banner-head display-flex">
                 <div class="fitness-banner">
-                    <h1 class="fitness-banner-title">Get body in <br> <span style="font-style: italic;">shape</span> & stay <br> healthy</h1>
+                    <h1 class="fitness-banner-title">Get body in <br> <span style="font-family: 'Miama',sans-serif; font-size: 7rem; line-height: 1;">shape</span>
+                        & stay <br> healthy</h1>
                     <p class="fitness-banner-discription">In oreder to get a six pack, you need to train hard everyday
-                        and
-                        not miss a single day and Take the right nutrition.</p>
-                    <button class="btn-primary-1">Join Club Now!</button>
-                    <button class="btn-primary-2">Download App</button>
+                        and <br>
+                        not miss a single day, and Take the right nutrition.</p>
+                    <div class="btn-main">
+                        <button class="btn-primary-1">Join Club Now!</button>
+                        <button class="btn-primary-2">Download App</button>
+                    </div>
                 </div>
                 <div class="fitness-banner-image">
                     <img src="images/Images 2.png" alt="" class="banner-image">
                     <button class="btn-display-1">
                         <h2>500+</h1>
-                        <p class="fitness-description-text">Free Workout Videos</p>
+                            <p class="fitness-description-text">Free Workout Videos</p>
                     </button>
                     <button class="btn-display-2">
+                        <div class="fitness-circle"></div>
                         <h2>350+</h1>
-                        <p class="fitness-description-text">Video tutorial</p>
+                            <p class="fitness-description-text">Video tutorial</p>
                     </button>
                 </div>
             </div>
         </section>
+        <!--Changing Your Habit Section-->
+        <section>
+            <div class="changing-habit">
+                <h1 class="habit-title fitness-color-one">Change Your Habits</h1>
+                <p class="habit-description fitness-description-text">Changing my habits is one the difficulties, I have
+                    faced and won against the difficulties sometime and got defeated by it sometime. Now I think it's
+                    somehow meaningful.
+                </p>
+            </div>
+            <div class="habit-images">
+                <img src="images/image 3.png" alt="" class="habit-image">
+                <img src="images/image 2.png" alt="" class="habit-image">
+                <img src="images/image 4.png" alt="" class="habit-image">
+                <img src="images/image 5.png" alt="" class="habit-image">
+            </div>
+        </section>
+
+        <!--Extra Effort Section -->
+
+        <section>
+            <div class="extra-effort-container">
+                <div class="extra-effort">
+                    <h1 class="extra-effort-title fitness-color-one">Run an Extra Mile Easily</h1>
+                    <p class="extra-effort-description fitness-description-text">Extra effots refine ones lacking to
+                        master the desire task.</p>
+                    <button class="extra-effort-btn btn-primary-1">Join Now</button>
+                </div>
+                <div class="extra-effort-images">
+                    <img src="images/run.jpg" alt="" class="extra-effort-image">
+                </div>
+            </div>
+        </section>
+        <!--BMI Calculator Section-->
+        <section>
+            <div class="bmi-header">
+                <h1 class="bmi-title">BMI Calculator</h1>
+                <p class="fitness-description-text">To check our fitness we can use BMI to measure it and it's pretty
+                    simple to calculate BMI.</p>
+            </div>
+            <div class="fitness-bmi">
+
+                <div class="bmi-table">
+                    <h1 class="fitness-color-one bmi-table-title">BMI Calculator Chart</h1>
+                    <table>
+                        <tr>
+                            <th>BMI</th>
+                            <th>Weight Status</th>
+                        </tr>
+                        <tr>
+                            <td>Below 18.5</td>
+                            <td>Underweight</td>
+                        </tr>
+                        <tr>
+                            <td>18.5-24.9</td>
+                            <td>Healthy</td>
+                        </tr>
+                        <tr>
+                            <td>25.0-29.9</td>
+                            <td>Overweight</td>
+                        </tr>
+                        <tr>
+                            <td>30.0 and Above</td>
+                            <td>Obese</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="bmi-calculator">
+                    <h1 class="bmi-calculator-title fitness-color-one">Calculate your BMI</h1>
+                    <p class="fitness-description-text bmi-calculator-description">To calculate your BMI, You need to
+                        know about weight and height.</p>
+                    <div class="bmi-calculator-input">
+                        <input type="text" placeholder="Height" class="bmi-input">
+                        <input type="text" placeholder="Weight" class="bmi-input">
+                        <input type="text" placeholder="Age" class="bmi-input">
+                        <input type="text" placeholder="Sex" class="bmi-input">
+                        <input type="text" placeholder="Select an Activity Factor" class="bmi-input">
+                    </div>
+                    <button class="bmi-btn btn-primary-1">Calculate</button>
+
+                </div>
+
+
+            </div>
+        </section>
+        <!--Nutrition Section-->
+        <section>
+            <div class="nutritious fitness-color-one">
+                <div class="bmi-header nutrition-header">
+                    <h1 class="nutrition-title">Nutritions</h1>
+                    <p class="fitness-description-text">To maintain a good health we look into the nutritions we took
+                        every and to live a healthy life we must look into that.</p>
+                </div>
+                <div class="nutritious-blocks display-flex">
+                    <div class="nutritious-food">
+                        <div class="bmi-header">
+                            <h1>Healthy Food</h1>
+                            <p class="fitness-description-text">Healthy Food plays a vital role to build a good fitness. Also If We want go to gym, we need to eat healthy food otherwise it will have bad impact on our health.</p>
+
+                        </div>
+
+                        <div class="nutritious-food-images">
+                            <img src="images/nutrition1.jpg" alt="" class="nutritious-food-img">
+                            <img src="images/nutrition2.jpg" alt="" class="nutritious-food-img">
+                            <img src="images/nutrition3.jpg" alt="" class="nutritious-food-img">
+                            <img src="images/nutrition4.jpg" alt="" class="nutritious-food-img">
+                        </div>
+                    </div>
+                    <div class="unhealthy">
+                        <div class="unhealthy-food team-member-header">
+                            <h1>Fast Food❌</h1>
+                            <p class="fitness-description-text nutrition-description">To maintain proper health and to workout properly. one must avoid junkfood otherwise it
+                                will have bad impact on health.</p>
+                        </div>
+                        <div class="unhealthy-food-images">
+                            <img src="images/unhealthy1.jpg" alt="" class="unhealthy-food-img">
+                            <img src="images/unhealthy2.jpg" alt="" class="unhealthy-food-img">
+                            <img src="images/unhealthy3.jpg" alt="" class="unhealthy-food-img">
+                            <img src="images/unhealthy4.jpg" alt="" class="unhealthy-food-img">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <!--Meet Our Team Section-->
+        <section>
+            <div class="team-member-header">
+                <h1 class="bmi-title">Meet Our Team</h1>
+                <p class="fitness-description-text">We are devoted to our work and provide service 24 hours for the
+                    clients need.</p>
+            </div>
+
+            <div class="team-members">
+                <img src="images/trainer1.png" alt="" class="team-member">
+                <img src="images/trainer2.png" alt="" class="team-member">
+                <img src="images/trainer3.png" alt="" class="team-member">
+                <img src="images/trainer4.png" alt="" class="team-member">
+                <img src="images/trainer5.png" alt="" class="team-member">
+                <img src="images/trainer6.png" alt="" class="team-member">
+            </div>
+        </section>
     </main>
+    <footer class="inter-fonts fitness-color-one footer-main">
+        <div class="footer">
+            <div class="footer-header">
+                <h1 class="footer-title">Fitness</h1>
+                <p class="fitness-description-text footer-description">We live in a world where footer play a big role
+                    like whoever wins at last that one gets all the pleasure.😉</p>
+            </div>
+            <div class="footer-contact">
+                <h1 class="footer-title-1">Get Started</h1>
+                <p class="fitness-description-text">Service</p>
+                <p class="fitness-description-text">Contact Us</p>
+                <p class="fitness-description-text">Affiliate Program</p>
+                <p class="fitness-description-text">About Us</p>
+            </div>
+            <div class="footer-contact">
+                <h1 class="footer-title-1">Get Started</h1>
+                <p class="fitness-description-text">Fitness</p>
+                <p class="fitness-description-text">Platform</p>
+                <p class="fitness-description-text">Workout Libary</p>
+                <p class="fitness-description-text">App Design</p>
+            </div>
+
+        </div>
+        <hr>
+        <p class="copyright fitness-description-text">All right reserved @Fitness 2024</p>
+
+    </footer>
 </body>
 
 </html>

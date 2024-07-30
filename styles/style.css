@@ -1,71 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 .inter-fonts {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-  }
+}
 
 /* Shared Style */
-body{
+body {
     background: #111111;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
-.display-flex{
+
+.display-flex {
     display: flex;
 }
 
-.fitness-description-text{
+.fitness-description-text {
     color: rgba(128, 128, 128, 0.4);
     font-size: 15px;
 }
 
-/*almost all fitness color*/
-
-fitness-color-one{
+.fitness-color-one {
     color: #FFFFFF;
 }
 
 
-/* Styles For Header */
-
 
 /* Styles for navbar */
-.fitness-navbar{
+
+.fitness-navbar {
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #111111;
-    
+
 }
-.fitness-nav-title{
+
+.fitness-nav-title {
     color: #E6533C;
     font-style: italic;
     font-weight: 800;
-    margin-left: 98px;
+    margin-right: 67px;
 }
-.fitness-nav-list{
+
+.fitness-nav-list {
     width: 410px;
     border: 1px solid rgba(245, 245, 245, 0.332);
     border-radius: 30px;
     padding: 10px 4px 10px 4px;
     gap: 8px;
-    margin-right: 98px;
+    margin-left: 68px;
     box-shadow: lightcyan;
 }
 
 
-ul> li{
+ul>li {
     list-style: none;
 
 }
-ul > li > a{
+
+ul>li>a {
     text-decoration: none;
     color: #FFFFFF;
     padding-left: 45px;
-    
+
 }
-.btn{
+
+.btn {
     border: none;
     border-radius: 20px;
     padding: 7px 12px;
@@ -73,53 +77,53 @@ ul > li > a{
 }
 
 /*styles for banner */
-.fitness-banner{
-    width: 520px;
-    margin-left: 98px;
-    
+
+.fitness-banner {
+    margin-left: 50px;
 }
-.fitness-banner-title{
+
+.fitness-banner-head {
+    justify-content: space-around;
+}
+
+.fitness-banner-title {
     font-size: 78px;
     color: #FFFFFF;
 }
-.fitness-banner-discription{
+
+.fitness-banner-discription {
+    height: 30px;
     font-size: 15px;
     color: rgba(128, 128, 128, 0.4);
-    margin-bottom: 40px;
-    margin-top: 28px;
+    margin-bottom: 30px;
+    margin-top: 23px;
 
 }
 
-.btn-primary-1{
+.btn-primary-1 {
     padding: 16px 40px;
     border: none;
     border-radius: 42px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     background-color: #E6533C;
 }
-.btn-primary-2{
+
+.btn-primary-2 {
     padding: 16px 40px;
     border: 1px solid whitesmoke;
     border-radius: 42px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     background-color: transparent;
 }
 
 /* Image part */
-.fitness-banner-head{
-    margin-right: 98px;
-}
-.fitness-banner-image{
-    margin-left: 450px;
-
-}
-.banner-image{
+.banner-image {
     margin-top: 20px;
     width: 349px;
     height: 580px;
 }
 
-.btn-display-1{
+.btn-display-1 {
     position: absolute;
     width: 190px;
     height: 90px;
@@ -127,25 +131,27 @@ ul > li > a{
     margin-left: -80px;
     background: transparent;
     box-shadow: #928e8e8a;
-    border:1px solid gray;
+    border: 1px solid gray;
     border-radius: 12px;
-    
+
 }
-.btn-display-2{
+
+.btn-display-2 {
     color: #FFFFFF;
     position: absolute;
     width: 180px;
     height: 80px;
     margin-top: 435px;
     margin-left: -460px;
+    padding-left: 50px;
     background: transparent;
     box-shadow: #928e8e8a;
-    border:1px solid gray;
+    border: 1px solid gray;
     border-radius: 12px;
-    
+
 }
 
-.btn-display-1 > h2{
+.btn-display-1>h2 {
     font-size: 25px;
     font-weight: 700;
     color: #FFFFFF;
@@ -153,10 +159,498 @@ ul > li > a{
 
 }
 
-.btn-display-2 > h2{
+.btn-display-2>h2 {
     font-size: 20px;
     font-weight: 600;
     color: #FFFFFF;
     margin-bottom: 8px;
 }
 
+.fitness-circle {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #E6533C;
+    margin-top: 19px;
+    margin-left: -30px;
+}
+
+.fitness-icon {
+    display: none;
+}
+
+/* Change Your Habit Styles */
+.changing-habit {
+    width: 900px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.habit-title {
+    font-size: 2.2rem;
+    color: #FFFFFF;
+
+}
+
+.habit-images {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+
+}
+
+.habit-image {
+    border-radius: 100%;
+
+}
+
+/* Extra Effort styles */
+.extra-effort-container {
+    width: 1000px;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    margin: 80px auto;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: rgb(62, 61, 61);
+    box-shadow: gainsboro;
+
+}
+
+.extra-effort {
+    padding-bottom: 50px;
+}
+
+.extra-effort-title {
+    font-size: 2.2rem;
+}
+
+.extra-effort-description {
+    padding-bottom: 20px;
+}
+
+.extra-effort-image {
+    width: 200px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+/* BMI calculator styles */
+.fitness-bmi {
+    
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px auto;
+    padding-bottom: 20px;
+    background-color: rgb(62, 61, 61);
+    box-shadow: gainsboro;
+
+
+}
+
+.bmi-calculator-input {
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 10px;
+
+}
+
+.bmi-input {
+    padding: 10px 20px;
+    margin: 5px 8px;
+    background-color: rgba(128, 128, 128, 0.138);
+    border-radius: 5px;
+}
+.bmi-input:last-child{
+    grid-column: span 2;
+}
+
+.bmi-header {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bmi-table {
+    width: 600px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.bmi-title {
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+.bmi-table-title {
+    color: #FFFFFF;
+}
+
+td,
+th {
+    border: 1px solid rgba(214, 211, 211, 0.755);
+    padding: 5px 10px;
+    color: rgba(128, 128, 128, 0.4);
+}
+
+th {
+    color: #FFFFFF;
+}
+/* Nutritions Styles*/
+
+.nutrition-title{
+    font-size: 2.6rem;
+}
+.nutritious-blocks{
+    justify-content: space-around;
+    background-color: rgb(62, 61, 61);
+    box-shadow: gainsboro;
+    
+}
+
+.nutritious-food-images, .unhealthy-food-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    
+
+}
+.unhealthy-food-images{
+    margin-top: 30px;
+}
+
+.nutritious-food-img, .unhealthy-food-img{
+    width: 280px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+
+/* Our team members styles */
+.team-member-header {
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.team-members {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px auto;
+    border-radius: 20px;
+    background-color: rgb(62, 61, 61);
+    box-shadow: gainsboro;
+
+}
+
+.team-member {
+    width: 340px;
+    height: 280px;
+    border-radius: 20px;
+    margin: 20px 30px;
+}
+
+/* footer styles */
+.footer-main{
+
+    background-color:  rgb(62, 61, 61);
+    box-shadow: gainsboro;
+}
+.footer{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 50px;
+    padding-top: 40px;
+
+}
+.footer-header{
+    width: 480px;
+
+}
+.footer-title {
+    color: #E6533C;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 3rem;
+}
+.footer-contact{
+    width: 300px;
+}
+.copyright{
+    text-align: center;
+    margin: auto auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+hr{
+    width: 1200px;
+    border-style:solid;
+    color: rgba(128, 128, 128, 0.684);
+}
+
+
+
+
+/* Responsive for mobile Device */
+@media screen and (max-width: 576px) {
+    /* nav styles */
+
+    .fitness-nav-title {
+        margin-left: 20px;
+    }
+
+    .fitness-nav-list {
+        display: none;
+    }
+
+    .fitness-navbar {
+        display: flex;
+
+    }
+
+    .fitness-icon {
+        display: inline;
+        margin-left: 70px;
+    }
+
+    .btn-main {
+        display: flex;
+        gap: 10px;
+
+    }
+
+    .btn-primary-1,
+    .btn-primary-2 {
+        width: 150px;
+        height: 40px;
+        padding: 10px 15px;
+
+    }
+
+    /* banner styles*/
+
+    .fitness-banner-image {
+        margin-bottom: 75px;
+    }
+
+    .fitness-banner-header {
+        height: auto;
+
+    }
+
+    .fitness-banner-head {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .fitness-banner-title {
+        font-size: 50px;
+    }
+
+    .fitness-banner-discription {
+        margin-bottom: 65px;
+
+    }
+
+    .btn-display-1 {
+        margin-top: 80px;
+        margin-left: -130px;
+    }
+
+    .btn-display-2 {
+        margin-top: 260px;
+        margin-left: -340px;
+
+    }
+
+    /* change your habits responsive */
+
+    body {
+        width: 100%;
+    }
+
+    .habit-title {
+        width: 450px;
+    }
+
+    .habit-description {
+        width: 450px;
+    }
+
+    .habit-images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .habit-image {
+        margin: 0 auto;
+    }
+
+    /* Extra Effort */
+    .extra-effort-container {
+        width: 360px;
+        height: 570px;
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+    }
+
+    .extra-effort-title {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .extra-effort-description {
+        text-align: center;
+    }
+
+    .extra-effort-image {
+        width: 380px;
+        height: 280px;
+
+    }
+
+    .extra-effort-btn {
+        margin: 20px 100px;
+    }
+
+    /* BMI calculator responsive styles */
+    .fitness-bmi {
+        width: 425px;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .bmi-calculator-input {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 340px;
+    }
+
+    .bmi-table {
+        width: 350px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        margin-left: 75px;
+    }
+
+    .bmi-table-title {
+        padding-bottom: 10px;
+        text-align: center;
+        margin-right: 70px;
+    }
+
+    .bmi-header {
+        width: 380px;
+        height: 120px;
+        margin-top: 20px;
+    }
+
+    .bmi-title {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    table {
+        margin-top: 20px;
+    }
+
+    .bmi-calculator-title {
+        text-align: center;
+    }
+
+    .bmi-calculator-description {
+        width: 250px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .bmi-calculator-input {
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bmi-input {
+        width: 130px;
+        height: 30px;
+
+    }
+    .bmi-input:last-child {
+        grid-column: span 2;
+    }
+
+    .bmi-btn {
+        margin: 20px 100px;
+    }
+
+    /* Nutrition styles */
+    .nutrition-header{
+        margin-bottom: 40px;
+    }
+    .nutrition-description{
+        width: 360px;
+        margin: 0 auto;
+    }
+    .nutritious-blocks{
+        flex-direction: column;
+    }
+    .nutritious-food-images, .unhealthy-food-images{
+        grid-template-columns: 1fr;
+    }
+    .nutritious-food-img, .unhealthy-food-img{
+        margin: 0 auto;
+    }
+
+    /* Meet our team */
+
+    .team-members {
+        width: 425px;
+
+        grid-template-columns: repeat(1, 6fr);
+    }
+
+    .team-member {
+        margin: 20px auto;
+    }
+
+    /* footer design */
+    .footer{
+        height: auto;
+        flex-direction: column;
+    }
+    .footer-header{
+        width: 370px;
+        margin-right: auto;
+    }
+    .footer-contact{
+        margin-right: auto;
+    }
+
+
+}
