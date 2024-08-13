@@ -626,8 +626,13 @@ hr{
         height: 30px;
 
     }
-    .bmi-input:last-child {
-        grid-column: span 2;
+    .dropdown{
+        width: 173px;
+        height: 53px;
+        padding: 10px 20px;
+    }
+    .bmi-special{
+        width: 325px;
     }
 
     .bmi-btn {
